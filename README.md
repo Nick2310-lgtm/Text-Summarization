@@ -1,4 +1,4 @@
-# 📝 Text Summarization App
+# 📝 Text Summarization App(Internship Project)
 
 This is a simple web application that summarizes long text into short, meaningful summaries using a transformer model (`facebook/bart-large-cnn`). It was developed as part of my internship project.
 
