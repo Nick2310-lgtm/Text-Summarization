@@ -1,27 +1,44 @@
-# 📝 Text Summarization App
+# 📝 Text Summarization Web App
 
-This is a simple web application that summarizes long text into short, meaningful summaries using a transformer model (`facebook/bart-large-cnn`). It was developed as part of my internship project.
-
----
-
-## 🔍 Project Objective
-
-To create a tool that can automatically generate summaries of long documents. The goal is to help users save time by quickly understanding the key points of any text.
+This is an NLP-based web application built during my internship project. The app performs **abstractive text summarization** using the `facebook/bart-large-cnn` model from Hugging Face Transformers. It allows users to input long documents and receive concise, meaningful summaries.
 
 ---
 
-## ⚙️ Technologies Used
+## 📌 Internship Objective
 
-- Python
+As part of my internship, I was tasked with building an application that could automate document summarization to help in information retrieval and faster decision-making. This project achieves that using state-of-the-art deep learning techniques.
+
+---
+
+## 🚀 Features
+
+- Summarizes long input text into concise summaries.
+- Web-based interface using **Streamlit**.
+- Uses **pretrained transformer models** for high-quality output.
+- Can be extended to summarize news articles, transcripts, or reports.
+
+---
+
+## 💻 Technologies Used
+
+- Python 3.x
 - Streamlit
-- Hugging Face Transformers
+- HuggingFace Transformers (`facebook/bart-large-cnn`)
 - PyTorch
 
 ---
 
-## 🚀 How to Run
+## 📷 Screenshot
 
-1. **Install dependencies**:
+![App Screenshot](screenshots/demo.png)
+
+*You can replace the above placeholder with a real screenshot of your app UI.*
+
+---
+
+## 📦 Installation
+
+Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
